@@ -9,7 +9,7 @@
       <%= f.input :payment, collection: ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay", "Other"], prompt: t("payment"), label: false, input_html: { class: "input-form" } %>
       <div class="d-flex">
         <%= link_to t("privacy"), privacy_path %>
-        <%= f.check_box :privacy, required: true %>
+        <%= f.check_box :privacy, required: true, target: :_blank %>
       </div>
       <%= f.submit t("next"), class: "btn-check" %>
     <% end %>
