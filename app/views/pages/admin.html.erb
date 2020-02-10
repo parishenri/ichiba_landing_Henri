@@ -1,1 +1,17 @@
-<p>Admin</p>
+<div class="admin container">
+
+  <h2>Admin</h2>
+
+  <div class="admin-card">
+    <% @users.each do |user| %>
+      <h3><%= user.first_name %> <%= user.last_name %></h3>
+      <p><%= user.email %></p>
+      <p><%= user.phone_number %></p>
+      <p>Company: <%= user.companies.first.company_name %></p>
+      <p>Bank: <%= user.companies.first.bank %></p>
+      <p>Accounting: <%= user.companies.first.accounting_software %></p>
+      <p>Payment: <%= user.companies.first.payment %></p>
+    <% end %>
+  </div>
+
+</div>

@@ -1,1 +1,7 @@
-<p>Confirmed</p>
+<div class="container">
+  <div class="confirmation-page">
+    <h2><%= t("done") %></h2>
+    <%= image_tag "confirmation.svg", width: 500 %>
+    <%= link_to t("back"), root_path, class: "btn-check" %>
+  </div>
+</div>

@@ -112,6 +112,8 @@ body {
   box-shadow: 2px 2px 7px 4px #bce6f06e;
   &:hover {
     box-shadow: 0px 1px 2px 1px #e7f5f96e;
+    color: white;
+    text-decoration: none;
   }
   a {
     color: white;
@@ -136,6 +138,26 @@ body {
   &:hover {
     opacity: 1;
   }
+}
+
+.admin {
+  h3 {
+    font-size: 18px;
+    color: $primary-color;
+  }
+  .admin-card {
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px rgba(200, 200, 200, 0.5);
+    padding: 20px 40px;
+    width: 300px;
+  }
+}
+
+.confirmation-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15vh;
 }
 
 @media only screen and (max-width: 900px) {
