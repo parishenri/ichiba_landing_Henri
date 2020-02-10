@@ -1,7 +1,12 @@
 class ApplicationController < ActionController::Base
   around_action :switch_locale
   before_action :configure_permitted_parameters, if: :devise_controller?
+  before_action :set_locale
 
+  def set_locale
+    I18n.locale = params[:locale] || session[:locale] || I18n.default_locale
+    session[:locale] = I18n.locale
+  end
 
   def after_sign_up_path_for(user)
     new_company_path

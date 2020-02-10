@@ -2,8 +2,10 @@
   <div class="links">
     <%= link_to "Privacy", privacy_path  %>
   </div>
-  <p>Copyright Ichiban 2019</p>
+  <p>Copyright Ichiba 2020</p>
   <div>
-    <p>.</p>
+    <% if user_signed_in? %>
+      <p><%= link_to "Logout", destroy_user_session_path, method: :delete %></p>
+    <% end %>
   </div>
 </div>

@@ -4,9 +4,13 @@
     <%= simple_form_for @company do |f| %>
       <%= f.error_notification %>
       <%= f.input :company_name, label: false, placeholder: t("company"), input_html: { class: "input-form" } %>
-      <%= f.input :accounting_software, prompt: t("accounting"), collection: ["Truc", "Truc autre"], label: false, input_html: { class: "input-form" } %>
-      <%= f.input :bank, label: false , collection: ["Qonta", "Starling"], prompt: t("bank"), label: false, input_html: { class: "input-form" }%>
-      <%= f.input :payment, collection: ["Truc", "Truc autre"], prompt: t("payment"), label: false, input_html: { class: "input-form" } %>
+      <%= f.input :accounting_software, prompt: t("accounting"), collection: ["Intuit Quickbooks", "Sage", "Xero", "Other"], label: false, input_html: { class: "input-form" } %>
+      <%= f.input :bank, label: false , collection: ["BNP", "Crédit Agricole", "Monzo", "N26", "Revolut", "Shine", "Société Générale", "Starling", "Tide", "Qonto", "Other"], prompt: t("bank"), label: false, input_html: { class: "input-form" }%>
+      <%= f.input :payment, collection: ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay", "Other"], prompt: t("payment"), label: false, input_html: { class: "input-form" } %>
+      <div class="d-flex">
+        <%= link_to t("privacy"), privacy_path %>
+        <%= f.check_box :privacy %>
+      </div>
       <%= f.submit t("next"), class: "btn-check" %>
     <% end %>
   </div>

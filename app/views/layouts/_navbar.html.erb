@@ -1,5 +1,9 @@
 <nav class="navbar">
   <%= image_tag "ichibalogo.svg", class: "logo" %>
+  <div>
+    <%= link_to 'English', root_path(locale: :en) %>
+    <%= link_to 'Français', root_path(locale: :fr) %>
+  </div>
 </nav>
 
 <script>

@@ -7,7 +7,7 @@ class CompaniesController < ApplicationController
   def create
     @company = Company.new(company_params)
     @company.save
-    redirect_to root_path
+    redirect_to confirmation_path
   end
 
 
