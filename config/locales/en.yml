@@ -1,15 +1,6 @@
 # Files in the config/locales directory are used for internationalization
 # and are automatically loaded by Rails. If you want to use locales other
 # than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
 # To use a different locale, set it with `I18n.locale`:
 #
 #     I18n.locale = :es
@@ -30,4 +21,35 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  header_line: Control and leverage your company's data
+  small_header: ...while improving your Ichiba scoring
+  scoring: Check and improve your Ichiba scoring
+  first: Fill out the info of your company
+  second: "Select the data sources you want to use"
+  third: "Our platform calculates a new Ichiba scoring"
+  why: "Why use Ichiba?"
+  box_one: "Centralise your data"
+  text_one: "Ichiba is a one-stop-shop that facilitates you data exchanges with your services providers"
+  box_two: "Take control of your data"
+  text_two: "Data sharing with your partners is made based on your rules: you decide what you want to share, when and to whom"
+  box_three: "Audit your data on demand"
+  text_three: "The scan of your data highlights untapped data sources you could leverage to improve the services you get from your partners"
+  box_four: "Improve your access to financial services"
+  text_four: "Real time access to credit and insurance opportunities supports the developpment of your business"
+  box_five: "Save time"
+  text_five: "Small businesses do not have time to constantly manually exchange the same information. Connect your accounting, banking and commerce softwares at the click of a button"
+  box_six: "Track your Ichiba scoring"
+  text_six: "Thanks to Ichiba scoring, you can follow in real time how your business is growing"
+  check: Get started for free
+  support: They support us
+  next: Next
+  first_name: First name
+  last_name: Last name
+  phone_number: Phone number
+  email: Email
+  password: Password
+  password_confirmation: Password confirmation
+  bank: Bank
+  accounting: Accounting software
+  payment: truc
+  company: Company's name

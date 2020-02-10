@@ -1,1 +1,166 @@
-// Specific CSS for your home-page
+.first-screen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 700px;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 20px;
+    color: #656565;
+  }
+}
+
+.header {
+  margin-left: 100px;
+}
+
+body {
+  color: $gray;
+  background-color: white;
+  font-family: $body-font;
+}
+
+.cards {
+  margin: 50px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.title {
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+}
+
+.number {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  box-shadow: 0px 1px 9px 2px rgba(167, 167, 167, 0.2);
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin: 20px 40px;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  img {
+    width: 40px;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+.text {
+  height: 20vh;
+}
+
+.m-auto {
+  margin: 20px auto;
+}
+
+.btn-check {
+  background-color: $primary-color;
+  padding: 10px 20px;
+  display: flex;
+  width: 290px;
+  border:none;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 2px 2px 7px 4px #bce6f06e;
+  &:hover {
+    box-shadow: 0px 1px 2px 1px #e7f5f96e;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.logo-partner {
+  width: 100px;
+  margin: 10px 30px;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .box {
+    max-width: 50vw;
+  }
+  .card {
+    max-width: 45vw;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .box {
+    max-width: 25vw;
+  }
+  .card {
+    max-width: 15vw;
+  }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  .box {
+    max-width: 20vw;
+  }
+}
+

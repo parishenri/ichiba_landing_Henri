@@ -1,2 +1,110 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render "layouts/navbar" %>
+<div class="first-screen">
+  <div class="header">
+    <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+
+    <h1><%= t("header_line") %></h1>
+    <p><%= t("small_header") %></p>
+    <p class="btn-check"><%= link_to t("check"), new_user_registration_path %></p>
+  </div>
+  <%= image_tag "background_home.png" %>
+</div>
+
+<div class="container">
+
+  <h2 class="text-center"><%= t("scoring") %></h2>
+
+  <div class="cards">
+    <div class="card">
+      <%= image_tag "one.png", class: "number" %>
+      <p><%= t("first") %></p>
+    </div>
+    <div class="card">
+      <%= image_tag "two.png", class: "number" %>
+      <p><%= t("second") %></p>
+    </div>
+    <div class="card">
+      <%= image_tag "three.png", class: "number" %>
+      <p><%= t("third") %></p>
+    </div>
+  </div>
+
+  <p class="btn-check m-auto"><%= link_to t("check"), new_user_registration_path %></p>
+
+
+  <h2 class="text-center title"><%= t("why") %></h2>
+  <div class="boxes">
+
+    <div class="box">
+      <div>
+        <%= image_tag "data" %>
+        <div class="text">
+          <h3><%= t("box_one") %></h3>
+          <p><%= t("text_one") %></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div>
+        <%= image_tag "lock" %>
+        <div class="text">
+          <h3><%= t("box_two") %></h3>
+          <p><%= t("text_two") %></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div>
+        <%= image_tag "ondemand" %>
+        <div class="text">
+          <h3><%= t("box_three") %></h3>
+          <p><%= t("text_three") %></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="box">
+      <div>
+        <%= image_tag "graph" %>
+        <div class="text">
+          <h3><%= t("box_four") %></h3>
+          <p><%= t("text_four") %></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div>
+        <%= image_tag "clock" %>
+        <div class="text">
+          <h3><%= t("box_five") %></h3>
+          <p><%= t("text_five") %></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+        <div>
+        <%= image_tag "score" %>
+        <div class="text">
+          <h3><%= t("box_six") %></h3>
+          <p><%= t("text_six") %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="text-center title"><%= t("support") %></h2>
+  <div class="logos">
+    <%= image_tag "partner1", class: "logo-partner" %>
+    <%= image_tag "partner2", class: "logo-partner" %>
+    <%= image_tag "partner3", class: "logo-partner" %>
+  </div>
+
+</div>
+
+
+<%= render "layouts/footer" %>

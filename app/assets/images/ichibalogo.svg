@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="32px" viewBox="0 0 108 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill-opacity="0.764969406" fill="#D4F0F9" cx="12.5" cy="12.5" r="11.5"></circle>
+        <circle id="Oval" fill-opacity="0.634123689" fill="#A9ABE3" cx="17.5" cy="20.5" r="10.5"></circle>
+        <ellipse id="Oval" fill-opacity="0.65777972" fill="#CBE6D2" cx="23" cy="12.5" rx="11" ry="11.5"></ellipse>
+        <text id="ichiba" font-family="JosefinSans-Regular, Josefin Sans" font-size="25" font-weight="normal" letter-spacing="0.000194444433" fill="#3A3A3A">
+            <tspan x="37.2619167" y="28">ichiba</tspan>
+        </text>
+    </g>
+</svg>
