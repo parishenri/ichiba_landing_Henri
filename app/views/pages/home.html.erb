@@ -4,6 +4,7 @@
     <h1><%= t("header_line") %></h1>
     <p><%= t("small_header") %></p>
     <p class="btn-check"><%= link_to t("check"), new_user_registration_path %></p>
+    <p id="powered">Service powered by <a href="https://www.credendo.com/fr"><%= image_tag "credendo.png" %></a></p>
   </div>
   <%= image_tag "background_home.png" %>
 </div>
@@ -31,6 +32,7 @@
 
 
   <h2 class="text-center title"><%= t("why") %></h2>
+  <p class="text-center"><%= t("why_text") %></p>
   <div class="boxes">
 
     <div class="box">
@@ -97,9 +99,9 @@
 
   <h2 class="text-center title"><%= t("support") %></h2>
   <div class="logos">
-    <%= image_tag "partner1.png", class: "logo-partner" %>
-    <%= image_tag "partner2.png", class: "logo-partner" %>
-    <%= image_tag "partner3.png", class: "logo-partner" %>
+    <a href="https://www.horizon2020.gouv.fr/" target="_blank"><%= image_tag "partner1.png", class: "logo-partner" %></a>
+    <a href="https://www.credendo.com/" target="_blank"><%= image_tag "partner2.png", class: "logo-partner" %></a>
+    <a href="https://area42.tech/" target="_blank"><%= image_tag "partner3.png", class: "logo-partner" %></a>
   </div>
 
 </div>

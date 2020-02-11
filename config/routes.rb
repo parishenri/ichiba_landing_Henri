@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     root to: 'pages#home'
     get 'adminsecret', to: 'pages#admin'
     get 'privacy', to: 'pages#privacy'
+    get 'paper', to: 'pages#paper'
     get 'confirmation', to: 'pages#confirmation'
     resources :companies
   end

@@ -124,11 +124,26 @@ body {
   }
 }
 
+#powered {
+  color: lightgray;
+  font-size: 14px;
+  img {
+    margin-bottom: 2px;
+    width: 90px;
+  }
+}
+
 .logos {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 50px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-partner {

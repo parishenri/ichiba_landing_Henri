@@ -22,7 +22,7 @@
 
 en:
   header_line: Control and leverage your company's data
-  small_header: ...while improving your Ichiba scoring
+  small_header: …while exchanging more easily data with your financial and business partners and while improving your Ichiba scoring
   scoring: Check and improve your Ichiba scoring
   first: Fill out the info of your company
   second: "Select the data sources you want to use"
@@ -55,3 +55,4 @@ en:
   company: Company's name
   privacy: I accept the Privacy Policy
   back: Back to home
+  why_text: Ichiba centralises, audits and leverages your valuable accounting, banking and commercial company' s data. It also automates their exchange with your partners based your rules
