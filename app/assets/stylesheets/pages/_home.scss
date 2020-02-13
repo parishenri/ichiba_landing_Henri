@@ -112,6 +112,10 @@ body {
     display: block;
     margin: 10px auto;
   }
+  i {
+    color: $primary-color;
+    font-size: 40px;
+  }
 }
 
 .text {
