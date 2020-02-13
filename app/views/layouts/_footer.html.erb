@@ -1,7 +1,8 @@
 <div class="footer">
   <div class="links">
-    <%= link_to "Privacy policy", privacy_path  %>
     <a href="https://drive.google.com/file/d/12p30Oa-htmyiSKjQLVD5aqvtBmSWhRga/view" target="_blank">White paper</a>
+    <%= link_to "Privacy policy", privacy_path  %>
+    <a href="mailto:contact@ichiba.tech">Contact</a>
     <% if user_signed_in? %>
       <p><%= link_to "Logout", destroy_user_session_path, method: :delete %></p>
     <% end %>

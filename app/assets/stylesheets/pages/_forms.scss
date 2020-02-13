@@ -1,6 +1,12 @@
+.container-top-form {
+  margin: 8vh auto;
+  h2 {
+    text-align: center;
+  }
+}
+
 .stepbar {
   width: 70vw;
-  padding-top: 50px;
   margin: auto;
   display: block;
 }
@@ -12,7 +18,9 @@
     margin-bottom: 40px;
   }
 }
-
+.form-inputs {
+  padding: 0px 250px 30px 250px;
+}
 .input-form {
   border: none;
   background-color: #eaf6fb;

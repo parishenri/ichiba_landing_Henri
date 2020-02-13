@@ -1,10 +1,11 @@
 fr:
   header_line: "Contrôlez et valorisez vos données d'entreprise"
-  small_header: "...tout en échangeant plus facilement avec vos partenaires financiers et commerciaux et tout en améliorant votre score Ichiba"
-  scoring: "Découvrez et améliorez votre score Ichiba"
+  small_header: "...tout en échangeant plus facilement avec vos partenaires existants ou potentiels"
+  scoring: Auditez vos données et améliorez votre score Ichiba
+  powered: Un service fourni par
   first: Saisissez vos informations et créez votre compte en un clic
   second: Sélectionnez les sources de données que vous souhaitez valoriser
-  third: Notre platform audite vos données et met à jour votre score Ichiba
+  third: Notre platforme audite vos données et met à jour votre score Ichiba
   start: Obtenez un audit de données et améliorez votre score
   why: "Pourquoi utiliser Ichiba ?"
   box_one: Centralisez vos données
@@ -23,19 +24,19 @@ fr:
   support : Ils nous soutiennent
   partners: Nos partenaires incluent aussi un nombre croissant d'acteurs de la comptabilité, de la banque et des paiements
   next: Suivant
-  first_name: Prénom
-  last_name: Nom
+  first_name: Prénom*
+  last_name: Nom*
   phone_number: Téléphone
-  email: Email
-  password: Mot de passe
-  password_confirmation: Confirmation du mot de passe
+  email: Email*
+  password: Mot de passe*
+  password_confirmation: Confirmation du mot de passe*
   bank: Banque
   accounting: Logiciel comptable
   payment: Paiement
   company: Société
   privacy: J'accepte la Politique de Confidentialité
   back: Revenir à l'accueil
-  form_title: Commencez gratuitement
-  why_text: Ichiba centralise, audite et exploite l’ensemble de vos données comptables, bancaires et commerciales qui ont de la valeur. Nous automatisons également leur partage avec vos partenaires selon vos propres règles
+  form_title: Obtenez un audit de données et améliorez votre score
+  why_text: Ichiba centralise, audite et exploite l’ensemble des données comptables, bancaires et commerciales de votre entreprise. Nous automatisons également leur partage avec vos partenaires selon vos propres règles
   done: Nous sommes encore en développement, nous vous tiendrons au courant lorsque cette fonctionnalité sera disponible
   thanks: Merci
