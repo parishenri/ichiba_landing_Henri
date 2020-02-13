@@ -6,7 +6,7 @@
     <p class="btn-check"><%= link_to t("check"), new_user_registration_path %></p>
     <p id="powered">Service powered by <a href="https://www.credendo.com/fr"><%= image_tag "credendo.png" %></a></p>
   </div>
-  <%= image_tag "background_home.png" %>
+  <%= image_tag "homeimage.png", class: "home-img" %>
 </div>
 
 <div class="container">
@@ -28,76 +28,78 @@
     </div>
   </div>
 
-  <p class="btn-check m-auto"><%= link_to t("check"), new_user_registration_path %></p>
+  <p class="btn-check m-auto" id="width-490"><%= link_to t("start"), new_user_registration_path %></p>
 
-
-  <h2 class="text-center title"><%= t("why") %></h2>
-  <p class="text-center"><%= t("why_text") %></p>
-  <div class="boxes">
-
-    <div class="box">
-      <div>
-        <%= image_tag "data.png" %>
-        <div class="text">
-          <h3><%= t("box_one") %></h3>
-          <p><%= t("text_one") %></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="box">
-      <div>
-        <%= image_tag "lock.png" %>
-        <div class="text">
-          <h3><%= t("box_two") %></h3>
-          <p><%= t("text_two") %></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="box">
-      <div>
-        <%= image_tag "ondemand.png" %>
-        <div class="text">
-          <h3><%= t("box_three") %></h3>
-          <p><%= t("text_three") %></p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="box">
-      <div>
-        <%= image_tag "graph.png" %>
-        <div class="text">
-          <h3><%= t("box_four") %></h3>
-          <p><%= t("text_four") %></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="box">
-      <div>
-        <%= image_tag "clock.png" %>
-        <div class="text">
-          <h3><%= t("box_five") %></h3>
-          <p><%= t("text_five") %></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="box">
+  <div class="screen-2">
+    <h2 class="text-center title"><%= t("why") %></h2>
+    <p class="text-center why"><%= t("why_text") %></p>
+    <div class="boxes">
+      <%= image_tag "bg1.png", class: "background1" %>
+      <div class="box">
         <div>
-        <%= image_tag "score.png" %>
-        <div class="text">
-          <h3><%= t("box_six") %></h3>
-          <p><%= t("text_six") %></p>
+          <%= image_tag "data.png" %>
+          <div class="text">
+            <h3><%= t("box_one") %></h3>
+            <p><%= t("text_one") %></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div>
+          <%= image_tag "lock.png" %>
+          <div class="text">
+            <h3><%= t("box_two") %></h3>
+            <p><%= t("text_two") %></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div>
+          <%= image_tag "ondemand.png" %>
+          <div class="text">
+            <h3><%= t("box_three") %></h3>
+            <p><%= t("text_three") %></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="box">
+        <div>
+          <%= image_tag "graph.png" %>
+          <div class="text">
+            <h3><%= t("box_four") %></h3>
+            <p><%= t("text_four") %></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div>
+          <%= image_tag "clock.png" %>
+          <div class="text">
+            <h3><%= t("box_five") %></h3>
+            <p><%= t("text_five") %></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+          <div>
+          <%= image_tag "score.png" %>
+          <div class="text">
+            <h3><%= t("box_six") %></h3>
+            <p><%= t("text_six") %></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <h2 class="text-center title"><%= t("support") %></h2>
+  <p class="text-center why"><%= t("partners") %></p>
   <div class="logos">
     <a href="https://www.horizon2020.gouv.fr/" target="_blank"><%= image_tag "partner1.png", class: "logo-partner" %></a>
     <a href="https://www.credendo.com/" target="_blank"><%= image_tag "partner2.png", class: "logo-partner" %></a>

@@ -2,24 +2,26 @@ fr:
   header_line: "Contrôlez et valorisez vos données d'entreprise"
   small_header: "...tout en échangeant plus facilement avec vos partenaires financiers et commerciaux et tout en améliorant votre score Ichiba"
   scoring: "Découvrez et améliorez votre score Ichiba"
-  first: "Indiquez les informations liées à votre société"
-  second: "Séléctionnez les sources de données que vous voulez utiliser"
-  third: "Notre plateforme calcule votre score Ichiba"
+  first: Saisissez vos informations et créez votre compte en un clic
+  second: Sélectionnez les sources de données que vous souhaitez valoriser
+  third: Notre platform audite vos données et met à jour votre score Ichiba
+  start: Obtenez un audit de données et améliorez votre score
   why: "Pourquoi utiliser Ichiba ?"
   box_one: Centralisez vos données
   text_one: La centralisation de vos données à un seul endroit facilite leur transfert auprès de vos partenaires
   box_two: Reprenez le contrôle de vos données
   text_two: "Le partage de vos données à vos partenaires se fait selon vos propres règles: vous définissez ce que vous partagez, à qui et quand"
-  box_three: Auditez vos données à la demande
-  text_three: Le scan de vos données met en évidence les données que vous pourriez exploiter pour améliorer votre scoring auprès de vos partenaires
-  box_four: Améliorez votre accès aux services financiers
-  text_four: L'accès en temps réel à des opportunités de crédit et d'assurance supporte le développement de votre entreprise
-  box_five: Gagnez du temps
-  text_five: Les petites entreprises n'ont pas le temps de transmettre manuellement leurs données à leurs partenaires. Connectez votre comptabilité, vos comptes et vos données commerciales en un clic
-  box_six: Ameliorez l'exactitude de ce que vous partagez
-  text_six: Le scoring Ichiba vous permet de suivre en temps réel comment votre entreprise se développe
+  box_three: Auditez vos données et améliorez votre score
+  text_three: L'audit de vos données met en évidence les données que vous pourriez exploiter pour améliorer les services de vos partenaires
+  box_four: Trouvez de nouveaux partenaires
+  text_four: Ichiba vous met en relation avec de nouveaux partenaires potentiels intéressés par vos données
+  box_five: Améliorez votre accès aux services
+  text_five: Recevez des réductions de la part de vos partenaires en fonction des données que vous leurs partagées
+  box_six: Gagnez du temps
+  text_six: Les petites entreprises n'ont pas le temps de transmettre manuellement toujours les mêmes données à leurs partenaires. Connectez vos données en un clic
   check: Commencez gratuitement
   support : Ils nous soutiennent
+  partners: Nos partenaires incluent aussi un nombre croissant d'acteurs de la comptabilité, de la banque et des paiements
   next: Suivant
   first_name: Prénom
   last_name: Nom
@@ -29,8 +31,11 @@ fr:
   password_confirmation: Confirmation du mot de passe
   bank: Banque
   accounting: Logiciel comptable
-  payment: truc
+  payment: Paiement
   company: Société
   privacy: J'accepte la Politique de Confidentialité
   back: Revenir à l'accueil
+  form_title: Commencez gratuitement
   why_text: Ichiba centralise, audite et exploite l’ensemble de vos données comptables, bancaires et commerciales qui ont de la valeur. Nous automatisons également leur partage avec vos partenaires selon vos propres règles
+  done: Nous sommes encore en développement, nous vous tiendrons au courant lorsque cette fonctionnalité sera disponible
+  thanks: Merci

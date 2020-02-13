@@ -1,6 +1,7 @@
 <div class="container">
   <%= image_tag "step2.png", class: "stepbar" %>
   <div class="form">
+    <h2><%= t("form_title") %></h2>
     <%= simple_form_for @company do |f| %>
       <%= f.error_notification %>
       <%= f.input :company_name, label: false, placeholder: t("company"), input_html: { class: "input-form" } %>
@@ -9,7 +10,7 @@
       <%= f.input :payment, collection: ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay", "Other"], prompt: t("payment"), label: false, input_html: { class: "input-form" } %>
       <div class="d-flex privacy-link">
         <%= link_to t("privacy"), privacy_path %>
-        <%= f.check_box :privacy, required: true, target: :_blank %>
+        <%= f.check_box :privacy, required: true, target: "_blank" %>
       </div>
       <%= f.submit t("next"), class: "btn-check" %>
     <% end %>
