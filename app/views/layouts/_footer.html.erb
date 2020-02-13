@@ -2,11 +2,13 @@
   <div class="links">
     <%= link_to "Privacy policy", privacy_path  %>
     <a href="https://drive.google.com/file/d/12p30Oa-htmyiSKjQLVD5aqvtBmSWhRga/view" target="_blank">White paper</a>
-  </div>
-  <p>Copyright Ichiba 2020</p>
-  <div>
     <% if user_signed_in? %>
       <p><%= link_to "Logout", destroy_user_session_path, method: :delete %></p>
     <% end %>
+  </div>
+  <p>Copyright Ichiba 2020</p>
+  <div>
+    <a href=""><i class="fab fa-linkedin-in"></i></a>
+    <a href=""><i class="fab fa-twitter"></i></a>
   </div>
 </div>

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   background: white;
-  padding: 40px 30px;
+  padding: 25px 40px;
   margin-top: 50px;
   font-size: 14px;
   color: $gray;
@@ -13,5 +13,9 @@
       color: $primary-color;
       text-decoration: none;
     }
+  }
+  i {
+    font-size: 25px;
+    margin-left: 10px;
   }
 }
