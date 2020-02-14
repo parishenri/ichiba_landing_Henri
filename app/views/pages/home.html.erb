@@ -4,7 +4,7 @@
     <h1><%= t("header_line") %></h1>
     <p><%= t("small_header") %></p>
     <p class="btn-check"><%= link_to t("check"), new_user_registration_path %></p>
-    <p id="powered">Service powered by <a href="https://www.credendo.com/fr"><%= image_tag "credendo.png" %></a></p>
+    <p id="powered"><%= t("powered")%><a href="https://www.credendo.com/fr"><%= image_tag "credendo.png" %></a></p>
   </div>
   <%= image_tag "homeimage.png", class: "home-img" %>
 </div>
@@ -57,7 +57,7 @@
 
       <div class="box">
         <div>
-          <i class="fas fa-concierge-bell"></i>
+          <i class="fas fa-star"></i>
           <div class="text">
             <h3><%= t("box_three") %></h3>
             <p><%= t("text_three") %></p>
@@ -78,7 +78,7 @@
 
       <div class="box">
         <div>
-          <i class="fas fa-clock"></i>
+          <i class="fas fa-concierge-bell"></i>
           <div class="text">
             <h3><%= t("box_five") %></h3>
             <p><%= t("text_five") %></p>
@@ -88,7 +88,7 @@
 
       <div class="box">
         <div>
-          <i class="fas fa-star-half-alt"></i>
+          <i class="fas fa-clock"></i>
           <div class="text">
             <h3><%= t("box_six") %></h3>
             <p><%= t("text_six") %></p>
