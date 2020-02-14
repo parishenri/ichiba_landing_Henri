@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_10_165335) do
+ActiveRecord::Schema.define(version: 2020_02_14_080621) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,9 @@ ActiveRecord::Schema.define(version: 2020_02_10_165335) do
     t.string "payment"
     t.boolean "privacy", default: false
     t.bigint "user_id"
+    t.string "other_software"
+    t.string "other_payment"
+    t.string "other_bank"
     t.index ["user_id"], name: "index_companies_on_user_id"
   end
 
