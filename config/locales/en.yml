@@ -52,15 +52,16 @@ en:
   email: Email*
   password: Password*
   password_confirmation: Password confirmation*
-  bank: Bank
-  accounting: Accounting software
-  payment: Payment
-  company: Company's name
-  privacy: I accept the Privacy Policy
+  bank: Banking data
+  accounting: Accounting data
+  payment: Payment data
+  company: Company name*
+  privacy: I accept the Privacy Policy*
   back: Back to home
   form_title: Get a free data audit and update your scoring
   why_text: Ichiba centralises, audits and leverages the valuable accounting, banking and trade data your company owns. It also automates their exchange with your partners based your rules
   done: We're still in development, we will keep you posted when this feature will be finalised
-  thanks: Thank you
+  thanks: Thank you!
   back: Back
-  other: Other
+  other: Other data
+  anything_else: Anything else
