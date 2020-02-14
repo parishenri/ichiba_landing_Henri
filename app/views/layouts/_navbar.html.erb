@@ -1,8 +1,13 @@
 <nav class="navbar">
   <%= image_tag "ichibalogo.png", class: "logo" %>
   <div>
-    <%= link_to 'EN', root_path(locale: :en) %>
-    <%= link_to 'FR', root_path(locale: :fr) %>
+    <% if I18n.locale == :en %>
+      <%= link_to 'EN', root_path(locale: :en), class: "blue" %>
+      <%= link_to 'FR', root_path(locale: :fr) %>
+    <% else %>
+      <%= link_to 'EN', root_path(locale: :en) %>
+      <%= link_to 'FR', root_path(locale: :fr), class: "blue" %>
+    <% end %>
   </div>
 </nav>
 
