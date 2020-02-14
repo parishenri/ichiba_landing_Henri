@@ -30,15 +30,16 @@ fr:
   email: Email*
   password: Mot de passe*
   password_confirmation: Confirmation du mot de passe*
-  bank: Banque
-  accounting: Logiciel comptable
-  payment: Paiement
-  company: Société
-  privacy: J'accepte la Politique de Confidentialité
+  bank: Données bancaires
+  accounting: Données comptables
+  payment: Données de paiement
+  company: Nom de la société*
+  privacy: J'accepte la Politique de Confidentialité*
   back: Revenir à l'accueil
   form_title: Obtenez un audit de données et améliorez votre score
   why_text: Ichiba centralise, audite et exploite l’ensemble des données comptables, bancaires et commerciales de votre entreprise. Nous automatisons également leur partage avec vos partenaires selon vos propres règles
   done: Nous sommes encore en développement, nous vous tiendrons au courant lorsque cette fonctionnalité sera disponible
-  thanks: Merci
+  thanks: Merci!
   back: Retour
-  other: Autre
+  other: Autre données
+  anything_else: Autre source
