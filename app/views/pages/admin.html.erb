@@ -3,14 +3,14 @@
   <h2>Admin</h2>
 
   <div class="admin-card">
-    <% @users.each do |user| %>
-      <h3><%= user.first_name %> <%= user.last_name %></h3>
-      <p><%= user.email %></p>
-      <p><%= user.phone_number %></p>
-      <p>Company: <%= user.companies.first.company_name %></p>
-      <p>Bank: <%= user.companies.first.bank %></p>
-      <p>Accounting: <%= user.companies.first.accounting_software %></p>
-      <p>Payment: <%= user.companies.first.payment %></p>
+    <% @companies.each do |company| %>
+      <h3><%= company.user.first_name %> <%= company.user.last_name %></h3>
+      <p><%= company.user.email %></p>
+      <p><%= company.user.phone_number %></p>
+      <p>Company: <%= company.company_name %></p>
+      <p>Bank: <%= company.bank %></p>
+      <p>Accounting: <%= company.accounting_software %></p>
+      <p>Payment: <%= company.payment %></p>
     <% end %>
   </div>
 

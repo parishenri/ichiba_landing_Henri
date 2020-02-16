@@ -203,14 +203,39 @@ body {
 
 .confirmation-page {
   display: flex;
+  background: #3b5cfa;
   align-items: center;
   flex-direction: column;
-  padding-top: 15vh;
+  h2 {
+    position: absolute;
+    bottom: 180px;
+    color: white;
+  }
   p {
+    color: white;
+    position: absolute;
+    bottom: 90px;
     padding-bottom: 40px;
     padding-top: 20px;
+    text-align: center;
+  }
+  video {
+    height: 100vh;
   }
 }
+
+.btn-white {
+  background: white;
+  color: #3b5cfa;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 70px;
+  padding: 10px 15px;
+  a:hover {
+    text-decoration: none;
+  }
+}
+
 
 @media only screen and (max-width: 900px) {
   .box {

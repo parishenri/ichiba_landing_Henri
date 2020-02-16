@@ -9,12 +9,31 @@
       <%= f.error_notification %>
 
       <div class="form-inputs">
-        <%= f.input :company_name, label: false, placeholder: t("company"), input_html: { class: "input-form" } %>
-        <%= f.input :accounting_software, prompt: t("accounting"), collection: ["Intuit Quickbooks", "Sage", "Xero", "Cegid", "Myob", "Other"], label: false, input_html: { class: "input-form" } %>
-        <%= f.input :bank, label: false , collection: ["BNP", "Crédit Agricole", "Société Générale", "HSBC", "Monzo", "N26", "Revolut", "Shine", "Starling", "Tide", "Qonto"], prompt: t("bank"), label: false, input_html: { class: "input-form" }%>
-        <%= f.input :payment, collection: ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay"], prompt: t("payment"), label: false, input_html: { class: "input-form" } %>
-        <%= f.input :other_software, collection: ["eCommerce", "Supply chain", "Logistic", "Inventory", "Loyalty", "Tax"], prompt: t("other"), label: false, input_html: { class: "input-form" } %>
-        <%= f.input :payment, collection: ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay"], prompt: t("payment"), label: false, input_html: { class: "input-form" } %>
+        <%= f.input :company_name, label: false, placeholder: t("company"), input_html: { class: "input-form", style: "margin-top: 30px;" } %>
+        <p><%= t("accounting") %></p>
+        <div class="checkboxes">
+          <% ["Quickbooks", "Sage", "Xero", "Cegid", "Myob"].each do |object| %>
+            <p class="check-button"><%= object %><input type="checkbox" name="accounting_software[]" value="<%= object %>" class="check_box"></p>
+          <% end %>
+        </div>
+        <p><%= t("bank") %></p>
+        <div class="checkboxes">
+          <% ["BNP", "Crédit Agricole", "Société Générale", "HSBC", "Monzo", "N26", "Revolut", "Shine", "Starling", "Tide", "Qonto"].each do |object| %>
+            <p class="check-button"><%= object %><input type="checkbox" name="bank[]" value="<%= object %>" class="check_box"></p>
+          <% end %>
+        </div>
+        <p><%= t("payment") %></p>
+        <div class="checkboxes">
+          <% ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay"].each do |object| %>
+            <p class="check-button"><%= object %><input type="checkbox" name="payment[]" value="<%= object %>" class="check_box"></p>
+          <% end %>
+        </div>
+        <p><%= t("other") %></p>
+        <div class="checkboxes">
+          <% ["eCommerce", "Supply chain", "Logistic", "Inventory", "Loyalty", "Tax"].each do |object| %>
+            <p class="check-button"><%= object %><input type="checkbox" name="other_software[]" value="<%= object %>" class="check_box"></p>
+          <% end %>
+        </div>
         <div class="d-flex privacy-link">
           <%= link_to t("privacy"), privacy_path %>
           <%= f.check_box :privacy, required: true, target: "_blank" %>
@@ -27,3 +46,19 @@
       </div>
   </div>
 </div>
+
+
+<script>
+  const buttons = document.querySelectorAll(".check-button")
+  buttons.forEach((button) => {
+    button.addEventListener("click", (e) => {
+      if (button.classList.value.includes("checked")) {
+        button.classList.remove("checked");
+        button.querySelector(".check_box").checked = false;
+      } else {
+        button.classList.add("checked");
+        button.querySelector(".check_box").checked = true;
+      }
+    })
+  })
+</script>

@@ -19,10 +19,6 @@
   }
 }
 
-.form-inputs {
-  padding: 0px 250px 30px 250px;
-}
-
 .input-form {
   border: none;
   background-color: #eaf6fb;
@@ -43,6 +39,32 @@
   }
 }
 
+.check_box {
+  display: none;
+}
+
+.check-button {
+  background-color: lightgray;
+  color: white;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 160px;
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.checked {
+  background-color: #52d4e8 !important;
+}
+
+.checkboxes {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media only screen and (max-width: 900px) {
   .stepbar {
     width: 85vw;
@@ -52,5 +74,8 @@
 @media only screen and (min-width: 900px) {
   .stepbar {
     width: 60vw;
+  }
+  .form-inputs {
+    padding: 0px 250px 30px 250px;
   }
 }
