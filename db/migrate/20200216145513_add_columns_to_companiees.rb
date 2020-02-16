@@ -1,4 +1,4 @@
-class ColumnText < ActiveRecord::Migration[5.2]
+class AddColumnsToCompaniees < ActiveRecord::Migration[5.2]
   def change
     add_column :companies, :accounting_software, :text
     add_column :companies, :bank, :text
