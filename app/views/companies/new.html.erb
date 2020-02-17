@@ -35,6 +35,10 @@
           <% end %>
         </div>
         <%= f.input :others, label: false, placeholder: t("others"), input_html: { class: "input-form", style: "margin-top: 30px;" } %>
+          <div class="consent">
+          <%= t("consent") %>
+          <%= f.check_box :privacy, required: true, target: "_blank" %>
+        </div>
         <div class="d-flex privacy-link">
           <%= link_to t("privacy"), privacy_path %>
           <%= f.check_box :privacy, required: true, target: "_blank" %>
