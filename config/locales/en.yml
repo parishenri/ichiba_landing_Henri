@@ -22,19 +22,19 @@
 
 en:
   header_line: Control and leverage all the data your company owns
-  small_header: …while exchanging more easily data with your existing or potential new partners
-  scoring: Audit your data and update your Ichiba scoring
+  small_header: …while exchanging data more easily with your existing or potential new partners
+  scoring: Audit and assess your data
   powered: Service powered by
   first: Fill in your information and create your account easily
   second: Select the data sources you want to leverage
-  third: Our platform audits your data and update your Ichiba scoring
-  start: Get a free data audit and update your scoring
+  third: Our platform audits and assesses your data
+  start: Audit and get a free assessment of your data
   why: "Why use Ichiba?"
   box_one: "Centralise your data"
   text_one: Ichiba is a one-stop-shop that facilitates you data exchanges with your partners
   box_two: "Take back control of your data"
   text_two: "Data sharing with your partners is made based on your rules: you decide what you want to share, when and to whom"
-  box_three: Audit and score your data
+  box_three: Audit and assess your data
   text_three: The audit of your data highlights untapped data sources you could leverage to improve the services you get from your partners
   box_four: Find new partners
   text_four: Ichiba puts you in touch with new potential partners interested in your data
@@ -58,7 +58,7 @@ en:
   company: Company name*
   privacy: I accept the Privacy Policy*
   back: Back to home
-  form_title: Get a free data audit and update your scoring
+  form_title: Audit and get a free assessment of your data
   why_text: Ichiba centralises, audits and leverages the valuable accounting, banking and trade data your company owns. It also automates their exchange with your partners based on your rules
   done: We are still in development, we will keep you posted when this feature will be finalised
   thanks: Thank you!

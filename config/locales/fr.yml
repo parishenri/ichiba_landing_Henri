@@ -1,18 +1,18 @@
 fr:
   header_line: "Contrôlez et valorisez toutes les données que votre entreprise possède"
   small_header: "...tout en échangeant plus facilement avec vos partenaires existants ou potentiels"
-  scoring: Auditez vos données et améliorez votre score Ichiba
+  scoring: Auditez et évaluez vos données
   powered: Un service fourni par
   first: Saisissez vos informations et créez votre compte en un clic
   second: Sélectionnez les sources de données que vous souhaitez valoriser
-  third: Notre platforme audite vos données et met à jour votre score Ichiba
-  start: Obtenez un audit de données et améliorez votre score
+  third: Notre platforme audite et évalue vos données
+  start: Obtenez un audit et une évaluation de vos données
   why: "Pourquoi utiliser Ichiba ?"
   box_one: Centralisez vos données
   text_one: La centralisation de vos données à un seul endroit facilite leur transfert auprès de vos partenaires
   box_two: Reprenez le contrôle de vos données
   text_two: "Le partage de vos données à vos partenaires se fait selon vos propres règles: vous définissez ce que vous partagez, à qui et quand"
-  box_three: Auditez vos données et améliorez votre score
+  box_three: Auditez et évaluez vos données
   text_three: L'audit de vos données met en évidence les données que vous pourriez exploiter pour améliorer les services de vos partenaires
   box_four: Trouvez de nouveaux partenaires
   text_four: Ichiba vous met en relation avec de nouveaux partenaires potentiels intéressés par vos données
@@ -36,7 +36,7 @@ fr:
   company: Nom de la société*
   privacy: J'accepte la Politique de Confidentialité*
   back: Revenir à l'accueil
-  form_title: Obtenez un audit de données et améliorez votre score
+  form_title: Obtenez un audit et une évaluation de vos données
   why_text: Ichiba centralise, audite et exploite l’ensemble des données comptables, bancaires et commerciales de votre entreprise. Nous automatisons également leur partage avec vos partenaires selon vos propres règles
   done: Nous sommes encore en développement, nous vous tiendrons au courant lorsque cette fonctionnalité sera disponible
   thanks: Merci!
