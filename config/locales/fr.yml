@@ -1,5 +1,5 @@
 fr:
-  header_line: "Contrôlez et valorisez vos données d'entreprise"
+  header_line: "Contrôlez et valorisez toutes les données que votre entreprise possède"
   small_header: "...tout en échangeant plus facilement avec vos partenaires existants ou potentiels"
   scoring: Auditez vos données et améliorez votre score Ichiba
   powered: Un service fourni par
@@ -42,4 +42,5 @@ fr:
   thanks: Merci!
   back: Retour
   other: Autre données
+  others: Autre
   anything_else: Autre source

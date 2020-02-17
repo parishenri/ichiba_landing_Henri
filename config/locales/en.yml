@@ -59,9 +59,10 @@ en:
   privacy: I accept the Privacy Policy*
   back: Back to home
   form_title: Get a free data audit and update your scoring
-  why_text: Ichiba centralises, audits and leverages the valuable accounting, banking and trade data your company owns. It also automates their exchange with your partners based your rules
-  done: We're still in development, we will keep you posted when this feature will be finalised
+  why_text: Ichiba centralises, audits and leverages the valuable accounting, banking and trade data your company owns. It also automates their exchange with your partners based on your rules
+  done: We are still in development, we will keep you posted when this feature will be finalised
   thanks: Thank you!
   back: Back
   other: Other data
+  others: Other
   anything_else: Anything else

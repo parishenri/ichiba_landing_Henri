@@ -9,22 +9,22 @@
       <%= f.error_notification %>
 
       <div class="form-inputs">
-        <%= f.input :company_name, label: false, placeholder: t("company"), input_html: { class: "input-form", style: "margin-top: 30px;" } %>
+        <%= f.input :company_name, label: false, required: true, placeholder: t("company"), input_html: { class: "input-form", style: "margin-top: 30px;" } %>
         <p><%= t("accounting") %></p>
         <div class="checkboxes">
-          <% ["Quickbooks", "Sage", "Xero", "Cegid", "Myob"].each do |object| %>
+          <% ["Quickbooks", "Sage", "Xero", "Cegid", "Myob", t("others")].each do |object| %>
             <p class="check-button"><%= object %><input type="checkbox" name="accounting_software[]" value="<%= object %>" class="check_box"></p>
           <% end %>
         </div>
         <p><%= t("bank") %></p>
         <div class="checkboxes">
-          <% ["BNP", "Crédit Agricole", "Société Générale", "HSBC", "Monzo", "N26", "Revolut", "Shine", "Starling", "Tide", "Qonto"].each do |object| %>
+          <% ["BNP", "Crédit Agricole", "Société Générale", "HSBC", "Monzo", "N26", "Revolut", "Shine", "Starling", "Tide", "Qonto", t("others")].each do |object| %>
             <p class="check-button"><%= object %><input type="checkbox" name="bank[]" value="<%= object %>" class="check_box"></p>
           <% end %>
         </div>
         <p><%= t("payment") %></p>
         <div class="checkboxes">
-          <% ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay"].each do |object| %>
+          <% ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay", t("others")].each do |object| %>
             <p class="check-button"><%= object %><input type="checkbox" name="payment[]" value="<%= object %>" class="check_box"></p>
           <% end %>
         </div>
@@ -34,6 +34,7 @@
             <p class="check-button"><%= object %><input type="checkbox" name="other_software[]" value="<%= object %>" class="check_box"></p>
           <% end %>
         </div>
+        <%= f.input :others, label: false, placeholder: t("others"), input_html: { class: "input-form", style: "margin-top: 30px;" } %>
         <div class="d-flex privacy-link">
           <%= link_to t("privacy"), privacy_path %>
           <%= f.check_box :privacy, required: true, target: "_blank" %>
