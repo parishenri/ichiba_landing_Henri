@@ -2,9 +2,13 @@
   <div class="container-top-form">
     <h2><%= t("form_title") %></h2>
   </div>
+    <% if I18n.locale == :en %>
     <%= image_tag "step1.png", class: "stepbar" %>
+    <% else %>
+    <%= image_tag "step1fr.png", class: "stepbar" %>
+    <% end %>
 
-    <div class="form">
+  <div class="form">
 
       <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
         <%= f.error_notification %>

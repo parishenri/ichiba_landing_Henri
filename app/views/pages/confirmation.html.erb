@@ -1,6 +1,16 @@
 <div class="confirmation-page">
   <%= video_tag "shot.mp4", autoplay: true %>
-  <h2><%= t("thanks") %></h2>
-  <p><%= t("done") %></p>
-  <%= link_to t("back"), root_path, class: "btn-white" %>
+  <div class="js-confirmation" style="display: none;">
+    <h2><%= t("thanks") %></h2>
+    <p><%= t("done") %></p>
+    <%= link_to t("back"), root_path, class: "btn-white" %>
+  </div>
 </div>
+
+<script>
+  const divFade = document.querySelector(".js-confirmation")
+  function fadeDiv () {
+    divFade.style.display = "contents";
+  }
+  setTimeout(function(){ fadeDiv(); }, 6000);
+</script>

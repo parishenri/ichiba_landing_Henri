@@ -2,7 +2,12 @@
   <div class="container-top-form">
     <h2><%= t("form_title") %></h2>
   </div>
-  <%= image_tag "step2.png", class: "stepbar" %>
+    <% if I18n.locale == :en %>
+    <%= image_tag "step1.png", class: "stepbar" %>
+    <% else %>
+    <%= image_tag "step1fr.png", class: "stepbar" %>
+    <% end %>
+
   <div class="form">
 
     <%= simple_form_for @company do |f| %>

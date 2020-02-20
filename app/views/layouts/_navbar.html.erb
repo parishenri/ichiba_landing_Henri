@@ -1,5 +1,7 @@
 <nav class="navbar">
+  <%= link_to "#" do %>
   <%= image_tag "ichibalogo.png", class: "logo" %>
+  <% end %>
   <div>
     <% if I18n.locale == :en %>
       <%= link_to 'EN', root_path(locale: :en), class: "blue" %>
