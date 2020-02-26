@@ -8,8 +8,8 @@ fr:
   third: Notre platforme audite et évalue vos données
   start: Obtenez un accès bêta
   why: "Pourquoi utiliser Ichiba ?"
-  box_one: Sans papier
-  text_one: Créez et/ou digitalisez vos documents pour faciliter vos transactions avec vos partenaires commerciaux
+  box_one: Digitalisation de vos documents
+  text_one: Ichiba crée ou digitalise vos documents ce qui facilite leurs réconciliations
   box_two: Stockage sécurisé
   text_two: Vos documents sont stockés dans des centres sécurisés. Ils sont privés sauf si vous décidez de les partager
   box_three: Meilleur contrôle
@@ -20,8 +20,10 @@ fr:
   text_five: Connectez une fois pour toutes vos partenaires à vos données et diminuez vos coûts administratifs
   box_six: Gestion des droits
   text_six: Ichiba gère ce que vous partagez, quand et à qui
-  box_seven: Une monétisation de vos données
+  box_seven: Monétisation
   text_seven: Le placement de vos données sur un compte épargne permet d'obtenir de l'argent et des réductions de vos partenaires
+  box_eight: Insights
+  text_eight: Autorisez l'accès à vos données à vos partenaires et obtenez des insights puissants
   check: Obtenez un accès bêta
   support : Ils nous soutiennent
   partners: Nos partenaires incluent aussi un nombre croissant d'acteurs de la comptabilité, de la banque et des paiements
