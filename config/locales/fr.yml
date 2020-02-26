@@ -1,26 +1,28 @@
 fr:
-  header_line: "Contrôlez et valorisez toutes les données que votre entreprise possède"
-  small_header: "...tout en échangeant plus facilement avec vos partenaires existants ou potentiels"
+  header_line: Boostez vos transactions B2B
+  small_header: La solution pour gérer vos données plus sûrement et simplement
   scoring: Auditez et évaluez vos données
-  powered: Un service fourni par
+  powered: Service offert par le leader de l'assurance crédit
   first: Saisissez vos informations et créez votre compte en un clic
   second: Sélectionnez les sources de données que vous souhaitez valoriser
   third: Notre platforme audite et évalue vos données
-  start: Obtenez un audit et une évaluation de vos données
+  start: Obtenez un accès bêta
   why: "Pourquoi utiliser Ichiba ?"
-  box_one: Centralisez vos données
-  text_one: La centralisation de vos données à un seul endroit facilite leur transfert auprès de vos partenaires
-  box_two: Reprenez le contrôle de vos données
-  text_two: "Le partage de vos données à vos partenaires se fait selon vos propres règles: vous définissez ce que vous partagez, à qui et quand"
-  box_three: Auditez et évaluez vos données
-  text_three: L'audit de vos données met en évidence les données que vous pourriez exploiter pour améliorer les services de vos partenaires
-  box_four: Trouvez de nouveaux partenaires
-  text_four: Ichiba vous met en relation avec de nouveaux partenaires potentiels intéressés par vos données
-  box_five: Améliorez votre accès aux services
-  text_five: Recevez des réductions de la part de vos partenaires en fonction des données que vous leurs partagées
-  box_six: Gagnez du temps
-  text_six: Les petites entreprises n'ont pas le temps de transmettre manuellement toujours les mêmes données à leurs partenaires. Connectez vos données en un clic
-  check: Commencez gratuitement
+  box_one: Sans papier
+  text_one: Créez et/ou digitalisez vos documents pour faciliter vos transactions avec vos partenaires commerciaux
+  box_two: Stockage sécurisé
+  text_two: Vos documents sont stockés dans des centres sécurisés. Ils sont privés sauf si vous décidez de les partager
+  box_three: Meilleur contrôle
+  text_three: Le dashboard d'Ichiba permet d'avoir une vue 360° sur les échanges avec vos partenaires commerciaux
+  box_four: Process de décision intégré
+  text_four: Ichiba optimise votre processus de décision et accélère la concrétisation de vos transactions commerciales
+  box_five: Gain de temps
+  text_five: Connectez une fois pour toutes vos partenaires à vos données et diminuez vos coûts administratifs
+  box_six: Gestion des droits
+  text_six: Ichiba gère ce que vous partagez, quand et à qui
+  box_seven: Une monétisation de vos données
+  text_seven: Le placement de vos données sur un compte épargne permet d'obtenir de l'argent et des réductions de vos partenaires
+  check: Obtenez un accès bêta
   support : Ils nous soutiennent
   partners: Nos partenaires incluent aussi un nombre croissant d'acteurs de la comptabilité, de la banque et des paiements
   next: Suivant
@@ -30,16 +32,23 @@ fr:
   email: Email*
   password: Mot de passe*
   password_confirmation: Confirmation du mot de passe*
-  bank: Données bancaires
-  accounting: Données comptables
-  payment: Données de paiement
+  doc-digitalisation: Quels documents souhaitez vous digitaliser, stocker et/ou reconcilier?
+  invoices: Factures
+  purchase_orders: Bons de commande
+  contracts: Contrats
+  payments: Paiements
+  bank: 2) Banque?
+  accounting: 1) Quel logiciel comptable utilisez-vous?
+  payment: 3) Système de paiement? (si applicable)
   company: Nom de la société*
   consent: Je partage mes données avec Ichiba pour obtenir un audit et une évaluation*
   privacy: J'accepte la Politique de Confidentialité*
   back: Revenir à l'accueil
-  form_title: Obtenez un audit et une évaluation de vos données
-  why_text: Ichiba centralise, audite et exploite l’ensemble des données comptables, bancaires et commerciales de votre entreprise. Nous automatisons également leur partage avec vos partenaires selon vos propres règles
-  done: Nous sommes encore en développement, nous vous tiendrons au courant lorsque cette fonctionnalité sera disponible
+  form_title: Obtenez un accès bêta
+  why_text1: Ichiba booste vos transactions B2B.
+  why_text2: Ichiba digitalise, stocke et reconcilie les factures, les bons de commande, les contrats et les paiements de votre entreprise avec ses partenaires.
+  why_text3: La mission d'Ichiba est de rendre les échanges commerciaux sûrs et faciles pour tous.
+  done: Nous sommes encore en développement, nous vous tiendrons au courant lorsque notre version bêta sera finalisée
   thanks: Merci!
   back: Retour
   other: Autre données

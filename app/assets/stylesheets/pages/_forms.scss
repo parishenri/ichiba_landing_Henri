@@ -21,7 +21,7 @@
 
 .input-form {
   border: none;
-  background-color: #eaf6fb;
+  background-color: #f1e6e6;
   border-radius: 5px;
   padding: 10px 15px;
   height: 45px;
@@ -49,18 +49,24 @@
   height: 45px;
   cursor: pointer;
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 10px 12px;
   width: 160px;
   text-align: center;
   margin: 10px 20px;
 }
 
 .checked {
-  background-color: #52d4e8 !important;
+  background-color: #3f1111 !important;
 }
 
 .checkboxes {
   margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkboxesNew {
+  margin-bottom: 0px;
   display: flex;
   flex-wrap: wrap;
 }

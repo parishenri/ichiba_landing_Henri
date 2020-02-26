@@ -4,37 +4,33 @@
     <h1><%= t("header_line") %></h1>
     <p><%= t("small_header") %></p>
     <p class="btn-check"><%= link_to t("check"), new_user_registration_path %></p>
-    <p id="powered"><%= t("powered")%><a href="https://www.credendo.com/fr"><%= image_tag "partner2.png" %></a></p>
+    <p id="powered"><%= t("powered")%><a href="https://area42.tech/"><%= image_tag "partner3.png" %></a></p>
   </div>
   <%= image_tag "homeimage.png", class: "home-img" %>
 </div>
 
 <div class="container">
 
-  <h2 class="text-center"><%= t("scoring") %></h2>
-
-  <div class="cards">
-    <div class="card">
-      <%= image_tag "one.png", class: "number" %>
-      <p><%= t("first") %></p>
-    </div>
-    <div class="card">
-      <%= image_tag "two.png", class: "number" %>
-      <p><%= t("second") %></p>
-    </div>
-    <div class="card">
-      <%= image_tag "three.png", class: "number" %>
-      <p><%= t("third") %></p>
-    </div>
-  </div>
-
-  <p class="btn-check m-auto" id="width-490"><%= link_to t("start"), new_user_registration_path %></p>
-
   <div class="screen-2">
     <h2 class="text-center title"><%= t("why") %></h2>
-    <p class="text-center why"><%= t("why_text") %></p>
+    <p class="text-center why"><%= t("why_text1") %></p>
+    <p class="text-center why"><%= t("why_text2") %></p>
+    <p class="text-center why" ><strong><%= t("why_text3") %></strong></p>
     <div class="boxes">
-      <%= image_tag "bg1.png", class: "background1" %>
+      <%= image_tag "shape.png", class: "background1" %>
+      <div class="box">
+        <div>
+          <i class="fas fa-dollar-sign"></i>
+          <div class="text">
+            <div class ="new">
+              <h3><%= t("box_seven") %></h3>
+              <i id="new"><%= image_tag "new.png" %></i>
+            </div>
+            <p><%= t("text_seven") %></p>
+          </div>
+        </div>
+      </div>
+
       <div class="box">
         <div>
           <i class="fas fa-database"></i>
@@ -57,10 +53,10 @@
 
       <div class="box">
         <div>
-          <i class="fas fa-clock"></i>
+          <i class="fas fa-street-view"></i>
           <div class="text">
-            <h3><%= t("box_six") %></h3>
-            <p><%= t("text_six") %></p>
+            <h3><%= t("box_three") %></h3>
+            <p><%= t("text_three") %></p>
           </div>
         </div>
       </div>
@@ -68,7 +64,7 @@
 
       <div class="box">
         <div>
-          <i class="fas fa-chart-bar"></i>
+          <i class="fas fa-link"></i>
           <div class="text">
             <h3><%= t("box_four") %></h3>
             <p><%= t("text_four") %></p>
@@ -78,7 +74,7 @@
 
       <div class="box">
         <div>
-          <i class="fas fa-concierge-bell"></i>
+          <i class="fas fa-clock"></i>
           <div class="text">
             <h3><%= t("box_five") %></h3>
             <p><%= t("text_five") %></p>
@@ -88,20 +84,21 @@
 
       <div class="box">
         <div>
-          <i class="fas fa-star"></i>
+          <i class="fas fa-share-alt-square"></i>
           <div class="text">
-            <h3><%= t("box_three") %></h3>
-            <p><%= t("text_three") %></p>
+            <h3><%= t("box_six") %></h3>
+            <p><%= t("text_six") %></p>
           </div>
         </div>
       </div>
+
     </div>
+<p class="btn-check m-auto" id="width-400"><%= link_to t("start"), new_user_registration_path %></p>
   </div>
 
   <h2 class="text-center title"><%= t("support") %></h2>
-  <p class="text-center why"><%= t("partners") %></p>
   <div class="logos">
-    <a href="https://www.credendo.com/" target="_blank"><%= image_tag "partner2.png", class: "logo-partner" %></a>
+    <a href="https://www.credendo.com/" target="_blank"><%= image_tag "credendo.png", class: "logo-partner" %></a>
     <a href="https://area42.tech/" target="_blank"><%= image_tag "partner3.png", class: "logo-partner" %></a>
   </div>
 

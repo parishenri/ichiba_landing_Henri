@@ -21,28 +21,30 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  header_line: Control and leverage all the data your company owns
-  small_header: …while exchanging data more easily with your existing or potential new partners
+  header_line: Your B2B data powerhouse
+  small_header: Trade data management made safe and easy
   scoring: Audit and assess your data
-  powered: Service powered by
+  powered: Service powered by the most trusted leader in risk-savvy trade management
   first: Fill in your information and create your account easily
   second: Select the data sources you want to leverage
   third: Our platform audits and assesses your data
-  start: Audit and get a free assessment of your data
-  why: "Why use Ichiba?"
-  box_one: "Centralise your data"
-  text_one: Ichiba is a one-stop shop that facilitates your data exchanges with your partners
-  box_two: "Take back control of your data"
-  text_two: "Data sharing with your partners is made based on your rules: you decide what you want to share, when and to whom"
-  box_three: Audit and assess your data
-  text_three: The audit of your data highlights untapped data sources you could leverage to improve the services you get from your partners
-  box_four: Find new partners
-  text_four: Ichiba puts you in touch with new potential partners interested in your data
-  box_five: Improve your access to services
-  text_five: Get discounts and special offers from your partners based on the data you share with them
-  box_six: Save time
-  text_six: "Small businesses do not have time to constantly exchange the same information manually: connect your data at the click of a button"
-  check: Get started for free
+  start: Get early access
+  why: "Why use Ichiba42?"
+  box_one: "Digitalise your documents"
+  text_one: Ichiba creates or digitizes your trade documents which facilitates your reconciliations
+  box_two: "Securely store data"
+  text_two: "Your documents are stored in secured data centers. Your files are private unless you allow to share them"
+  box_three: Take control of your data
+  text_three: Use Ichiba42 dashboard to have a 360° view of your data exchanges with your partners
+  box_four: Seamless approval process
+  text_four: Optimize your decision chains and fast track your transactions
+  box_five: Save time
+  text_five: Connect once to all your partners and decrease administrative costs
+  box_six: Manage partners rights
+  text_six: "Use Ichiba42 to manage what you share, when and to whom"
+  box_seven: Monetize your data
+  text_seven: "Benefit from data savings accounts and get money or discounts from your partners"
+  check: Get early access
   support: They support us
   partners: Our partners also include a growing number of accounting, banking, payment and logistics companies
   next: Next
@@ -52,16 +54,23 @@ en:
   email: Email*
   password: Password*
   password_confirmation: Password confirmation*
-  bank: Banking data
-  accounting: Accounting data
-  payment: Payment data
+  doc-digitalisation: Which documents do you want to digitize, store and/or reconcile?
+  invoices: Invoices
+  purchase_orders: Purchase orders
+  contracts: Contracts
+  payments: Payments
+  bank: 2) Bank?
+  accounting: 1) What is your accounting software?
+  payment: 3) Payment system? (if available)
   company: Company name*
   consent: I consent to share my data with Ichiba to get a free audit and assessment*
   privacy: I accept the Privacy Policy*
   back: Back to home
-  form_title: Audit and get a free assessment of your data
-  why_text: Ichiba centralises, audits and leverages the valuable accounting, banking and trade data your company owns. It also automates their exchange with your partners based on your rules
-  done: We are still in development, we will keep you posted when this feature will be finalised
+  form_title: Get early access
+  why_text1: Ichiba42 is a B2B data powerhouse.
+  why_text2: It digitizes, stores and reconciles invoices, purchase orders, contracts and payment transactions between your company and its partners.
+  why_text3: Ichiba42 is on a mission to make trade data exchanges safe and easy for all.
+  done: We are still in development, we will keep you posted when our beta version will be finalised
   thanks: Thank you!
   back: Back
   other: Other data

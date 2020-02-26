@@ -1,13 +1,12 @@
 <div class="footer">
   <div class="links">
     <a href="https://drive.google.com/file/d/12p30Oa-htmyiSKjQLVD5aqvtBmSWhRga/view" target="_blank">White paper</a>
-    <%= link_to "Privacy policy", privacy_path  %>
     <a href="mailto:contact@ichiba.tech">Contact</a>
     <% if user_signed_in? %>
       <p><%= link_to "Logout", destroy_user_session_path, method: :delete %></p>
     <% end %>
   </div>
-  <p>Copyright Ichiba 2020</p>
+  <p>Copyright Ichiba42 2020</p>
   <div>
     <a href="https://www.linkedin.com/company/ichiba-tech/"><i class="fab fa-linkedin-in"></i></a>
     <a href="https://twitter.com/IchibaTech"><i class="fab fa-twitter"></i></a>

@@ -1,20 +1,25 @@
 <div class="container">
   <div class="container-top-form">
-    <h2><%= t("form_title") %></h2>
   </div>
     <% if I18n.locale == :en %>
     <%= image_tag "step2.png", class: "stepbar" %>
     <% else %>
     <%= image_tag "step2fr.png", class: "stepbar" %>
     <% end %>
-
   <div class="form">
 
     <%= simple_form_for @company do |f| %>
       <%= f.error_notification %>
 
       <div class="form-inputs">
-        <%= f.input :company_name, label: false, required: true, placeholder: t("company"), input_html: { class: "input-form", style: "margin-top: 30px;" } %>
+        <%= f.input :company_name, label: false, required: true, placeholder: t("company"), input_html: { class: "input-form", style: "margin-top: 30px; margin-bottom: 40px" } %>
+        <p><%= t("doc-digitalisation") %></p>
+        <div class="checkboxesNew">
+        <% [t("invoices"), t("purchase_orders"), t("contracts"), t("payments")].each do |object| %>
+          <p class="check-button"><%= object %><input type="checkbox" name="other_software[]" value="<%= object %>" class="check_box"></p>
+        <% end %>
+        </div>
+        <%= f.input :others, label: false, placeholder: t("others"), input_html: { class: "input-form", style: "margin-top: 30px; margin-bottom: 40px" } %>
         <p><%= t("accounting") %></p>
         <div class="checkboxes">
           <% ["Quickbooks", "Sage", "Xero", "Cegid", "Myob", t("others")].each do |object| %>
@@ -32,21 +37,6 @@
           <% ["iZettle", "Mastercard", "Sumup", "Visa", "Worldpay", t("others")].each do |object| %>
             <p class="check-button"><%= object %><input type="checkbox" name="payment[]" value="<%= object %>" class="check_box"></p>
           <% end %>
-        </div>
-        <p><%= t("other") %></p>
-        <div class="checkboxes">
-          <% ["eCommerce", "Supply chain", "Logistic", "Inventory", "Loyalty", "Tax"].each do |object| %>
-            <p class="check-button"><%= object %><input type="checkbox" name="other_software[]" value="<%= object %>" class="check_box"></p>
-          <% end %>
-        </div>
-        <%= f.input :others, label: false, placeholder: t("others"), input_html: { class: "input-form", style: "margin-top: 30px;" } %>
-          <div class="consent">
-          <%= t("consent") %>
-          <%= f.check_box :privacy, required: true, target: "_blank" %>
-        </div>
-        <div class="d-flex privacy-link">
-          <%= link_to t("privacy"), privacy_path %>
-          <%= f.check_box :privacy, required: true, target: "_blank" %>
         </div>
       </div>
 
