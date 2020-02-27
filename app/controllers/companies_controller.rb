@@ -7,7 +7,7 @@ class CompaniesController < ApplicationController
   def create
     @company = Company.new(company_params)
     @company.user = current_user
-    @company.accounting_software = ""
+    @company.accounting_software = []
     @company.accounting_software = params[:accounting_software]
     @company.bank = params[:bank]
     @company.payment = params[:payment]
