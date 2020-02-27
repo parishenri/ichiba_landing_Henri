@@ -13,7 +13,7 @@ fr:
   box_two: Stockage sécurisé
   text_two: Vos documents sont stockés dans des centres sécurisés. Ils sont privés sauf si vous décidez de les partager
   box_three: Meilleur contrôle
-  text_three: Le dashboard d'Ichiba42 permet d'avoir une vue 360° sur les échanges avec vos partenaires commerciaux
+  text_three: Le dashboard d'Ichiba42 permet d'avoir une vue 360° sur les échanges de données avec vos partenaires
   box_four: Process de décision intégré
   text_four: Optimisez votre processus de décision et accélère la concrétisation de vos transactions commerciales
   box_five: Gain de temps
@@ -24,6 +24,8 @@ fr:
   text_seven: Le placement de vos données sur un compte épargne permet d'obtenir de l'argent et des réductions de vos partenaires
   box_eight: Insights
   text_eight: Autorisez l'accès à vos données à vos partenaires et obtenez des insights puissants
+  box_nine: Digital business ID
+  text_nine: Creez votre business ID digitale et débloquez de nouveaux contrats. Plus vous partagez, plus vous êtes récompensés
   check: Obtenez un accès bêta
   support : Ils nous soutiennent
   partners: Nos partenaires incluent aussi un nombre croissant d'acteurs de la comptabilité, de la banque et des paiements
@@ -38,7 +40,7 @@ fr:
   invoices: Factures
   purchase_orders: Bons de commande
   contracts: Contrats
-  payments: Paiements
+  payments: Justif. de paiement
   bank: 2) Banque?
   accounting: 1) Quel logiciel comptable utilisez-vous?
   payment: 3) Système de paiement? (si applicable)
