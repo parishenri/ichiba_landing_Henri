@@ -58,14 +58,14 @@ en:
   email: Email*
   password: Password*
   password_confirmation: Password confirmation*
-  doc-digitalisation: Which documents would you like to digitize, store and/or reconcile?
+  doc-digitalisation: 1) Which documents would you like to digitize, store and/or reconcile?
   invoices: Invoices
   purchase_orders: Purchase orders
   contracts: Contracts
   payments: Payment receipts
-  bank: 2) Bank?
-  accounting: 1) What is your accounting software?
-  payment: 3) Payment system? (if available)
+  bank: 3) Bank?
+  accounting: 2) What is your accounting software?
+  payment: 4) Payment system? (if available)
   company: Company name*
   consent: I consent to share my data with Ichiba to get a free audit and assessment*
   privacy: I accept the Privacy Policy*
