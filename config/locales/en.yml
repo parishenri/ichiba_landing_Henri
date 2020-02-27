@@ -31,7 +31,7 @@ en:
   start: Get early access
   why: "Why use Ichiba42?"
   box_one: "Digitalise your documents"
-  text_one: Ichiba creates or digitizes your trade documents which facilitates your reconciliations
+  text_one: Ichiba42 creates or digitizes your trade documents which facilitates your reconciliations
   box_two: "Securely store data"
   text_two: "Your documents are stored in secured data centers. Your files are private unless you allow to share them"
   box_three: Take control of your data
@@ -56,11 +56,11 @@ en:
   email: Email*
   password: Password*
   password_confirmation: Password confirmation*
-  doc-digitalisation: Which documents do you want to digitize, store and/or reconcile?
+  doc-digitalisation: Which documents would you like to digitize, store and/or reconcile?
   invoices: Invoices
   purchase_orders: Purchase orders
   contracts: Contracts
-  payments: Payments
+  payments: Payment receipts
   bank: 2) Bank?
   accounting: 1) What is your accounting software?
   payment: 3) Payment system? (if available)
