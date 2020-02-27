@@ -8,6 +8,9 @@ class CompaniesController < ApplicationController
     @company = Company.new(company_params)
     @company.user = current_user
     @company.accounting_software = []
+    @company.other_software = []
+    @company.bank = []
+    @company.payment = []
     @company.accounting_software = params[:accounting_software]
     @company.bank = params[:bank]
     @company.payment = params[:payment]
